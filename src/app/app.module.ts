@@ -3,14 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HolaMundoComponent } from './hola-mundo/hola-mundo.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DatospostComponent } from './datospost/datospost.component';
+import { PrimerCalculoComponent } from './primer-calculo/primer-calculo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HolaMundoComponent,
+    DatospostComponent,
+    PrimerCalculoComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
