@@ -7,6 +7,8 @@ import { HolaMundoComponent } from './hola-mundo/hola-mundo.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DatospostComponent } from './datospost/datospost.component';
 import { PrimerCalculoComponent } from './primer-calculo/primer-calculo.component';
+import { SegundoCalculoComponent } from './segundo-calculo/segundo-calculo.component';
+import { MenuindexComponent } from './menuindex/menuindex.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,8 @@ import { PrimerCalculoComponent } from './primer-calculo/primer-calculo.componen
     HolaMundoComponent,
     DatospostComponent,
     PrimerCalculoComponent,
+    SegundoCalculoComponent,
+    MenuindexComponent,
   ],
   imports: [
     BrowserModule,

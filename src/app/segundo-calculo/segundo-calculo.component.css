@@ -9,37 +9,37 @@ h1{
     background-color: rgb(223, 223, 223);
     position: relative;
     margin-left: 10%;
-    border: 2px solid red;
+    border: 2px solid rgb(0, 255, 119);
     border-radius: 4px;
     width: 80%;
 }
 
-#sumarButton {
-    background-color: #f44336;
+#botonRestar {
+    background-color: #00fe15;
     font-size: 20px;
     border-radius: 8px;
     margin-left: 10%;
 } 
-#sumarButton:hover {
-    background-color: #a13028;
+#botonRestar:hover {
+    background-color: #066909;
     cursor: pointer;
 }
 #formulario{
     border: black 2px dashed;
     padding-top: 5%;
     padding-bottom: 5%;
-    background-color: #b7d7ef;
+    background-color: #63d677;
 }
 
 p{
     /*Color: rgb(40, 204, 40);*/
-    color: blue;
+    color: rgb(20, 20, 20);
     font-weight: bolder;
     font-size: 150%;
     text-align: center;
 }
 #contenido{
-    background-color: red;
+    background-color: rgb(187, 76, 76);
 }
 body{
     margin-left: 20%;
