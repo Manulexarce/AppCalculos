@@ -12,18 +12,38 @@
       </style>
 </head>
 <body>
-    <h1>Ingrese los números a Restar</h1>
-    <form id="formulario">
-      <input type="number" id="numero1" placeholder="Primer número" required>
-      <br><br>
-      <input type="number" id="numero2" placeholder="Segundo número" required>
-      <br><br>
-      <button type="button" id="botonRestar">Restar</button>
-    </form>
+  <h1>Ingrese los números a restar</h1>
+  <form id="formulario">
+    <!--<input type="number" id="numero1" placeholder="Primer número" required>
+    <br><br>
+    <input type="number" id="numero2" placeholder="Segundo número" required>
+    <br><br>-->
+    <p id="intrucción">Instrucciones de uso:</p>
+    <img src="assets/instrus2.png" alt="imagen-instrucciones">
+    <p id="instrucción">Para agregar datos comience dando click en el botón de "agregar caja de texto" hasta tener los contenedores necesarios para su operación</p>
+    <div id="listaUsuario">
+      <!-- Aquí se agregarán las nuevas cajas de texto -->
+    </div> 
     
-    <div id="contenido">
-        <p id="respuesta"> </p>
-    </div>
+    <br>
+    <!-- <button type="button" id="botonRestar">Restar</button> -->
+    <!--A continuación se puede ver el contenedor para agregar nuevos input y desde el cual podemos llamar a la clase agregarCajaTexto en su ts-->
+    
+    
+    <button  id="botonRestar" (click)="agregarCajaTexto()">Agregar caja de texto</button>
+
+    <!--Agregando boton para poder llamar al método que tomara los valores de los input-->
+    <button (click)="inicializarCaptura()" id="botonRestar" >Captura de datos</button>
+
+    <!-- Agregando boton para reiniciar aplicación -->
+    <button  id="RestarBoton" (click)="Reiniciar()" >Reiniciar</button>
+  </form>
+
+  
+  <div id="contenido">
+      <p id="resultado"> </p>
+      <p id="ciclofor"></p>
+  </div>
     <script src="segundo-calculo.component.ts"></script>
 </body>
 </html>

@@ -1,0 +1,195 @@
+#contenedor1{
+    border: 2px dashed black;
+    padding: 50px;
+}
+h1{
+    font-family: 'Impact', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Dividendo, #Divisor{
+    background-color: rgb(223, 223, 223);
+    position: relative;
+    border: 2px solid rgb(0, 255, 119);
+    border-radius: 4px;
+    width: 80%;
+    
+}
+
+#NewDivisor{
+    position: absolute;
+    margin: -2.3% 35%;
+    background-color: rgb(223, 223, 223);
+    border: 2px solid rgb(93, 27, 200);
+    border-radius: 4px;
+    color: blue;
+    width: 15%;
+    
+}
+
+#NewNumero{
+    position: absolute;
+    margin: -3% 0 0 30%;
+    padding: 0 0 0 0;
+}
+#Divisor{
+    margin-left: 8%;
+}
+
+label{
+    display: inline-block;
+    width: 80px;
+  }
+  
+input{
+    display: inline-block;
+}
+
+[id*="numero"] {
+    color: blue;
+    width: 35%;
+    margin-left: 3%;
+  }
+
+#BotonDividir {
+    background-color: #00fe15;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-left: 10%;
+    
+} 
+#BotonDividir:hover {
+    background-color: #066909;
+    cursor: pointer;
+}
+#formulario{
+    border: black 2px dashed;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #8b94d29c;
+    padding-left: 5%;
+    border-radius: 13px;
+}
+#numero-Dividendo, #numero-Divisor, #numero-Extra{
+    background-color: rgb(223, 223, 223);
+    position: relative;
+    margin-left: 5%;
+    border: 2px solid rgb(93, 27, 200);
+    border-radius: 4px;
+    width: 25%;
+    
+}
+
+p{
+    /*Color: rgb(40, 204, 40);*/
+    color: rgb(20, 20, 20);
+    font-weight: bolder;
+    font-size: 150%;
+    text-align: center;
+}
+#contenido{
+    background-color: rgba(187, 76, 76, 0.723);
+    margin-top: 2%;
+    border-radius: 13px;
+}
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#resultado2{
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(0, 8, 255);
+}
+/*Personalización solo del botón de viddir*/
+#numero-BotonDividir{text-decoration:none; text-align:center; 
+    padding:7px 53px; 
+    border:solid 3px #004F72; 
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px; 
+    margin: 0 0 0 5%;
+    border-radius: 4px; 
+    font:18px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#E5FFFF; 
+    background-color:#1ebff5; 
+    background-image: -moz-linear-gradient(top, #1ebff5 0%, #1938a5 100%); 
+    background-image: -webkit-linear-gradient(top, #1ebff5 0%, #1938a5 100%); 
+    background-image: -o-linear-gradient(top, #1ebff5 0%, #1938a5 100%); 
+    background-image: -ms-linear-gradient(top, #1ebff5 0% ,#1938a5 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1938a5', endColorstr='#1938a5',GradientType=0 ); 
+    background-image: linear-gradient(top, #1ebff5 0% ,#1938a5 100%);   
+    -webkit-box-shadow:inset 1px 0px -8px #ffffff;  -moz-box-shadow:inset 1px 0px -8px #ffffff;  box-shadow:inset 1px 0px -8px #ffffff;  
+     
+     }
+     #NewOperacion, #Operar{
+    text-decoration:none; text-align:center; 
+    padding:7px 20px; 
+    border:solid 3px #006172; 
+    -webkit-border-radius:4px;
+    margin: 0 0 0 0;
+    -moz-border-radius:4px; 
+    border-radius: 4px; 
+    font:18px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#E5FFFF; 
+    background-color:#1ee7f5; 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1938a5', endColorstr='#1938a5',GradientType=0 ); 
+    background-image: linear-gradient(top, #1ebff5 0% ,#1938a5 100%);
+    margin-left: 2%;
+     }
+     #NewOperacion:hover, #Operar:hover{
+        text-decoration:none; text-align:center; 
+        padding:7px 20px; 
+        border:solid 3px #006172; 
+        -webkit-border-radius:4px;
+        -moz-border-radius:4px; 
+        border-radius: 4px; 
+        font:17px Arial, Helvetica, sans-serif; 
+        font-weight:bold; 
+        color:#E5FFFF; 
+        background-color:#189fa9; 
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1938a5', endColorstr='#1938a5',GradientType=0 ); 
+        background-image: linear-gradient(top, #1ebff5 0% ,#1938a5 100%);
+        margin-left: 2%;
+        cursor: pointer;
+         }
+     #numero-BotonDividir:hover{
+    padding:7px 53px; 
+    border:solid 3px #004F72; 
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px; 
+    border-radius: 4px; 
+    font:16px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    cursor: pointer;
+    color:#E5FFFF; 
+    background-color:#5283ab; 
+    background-image: -moz-linear-gradient(top, #5283ab 0%, #1d309c 100%); 
+    background-image: -webkit-linear-gradient(top, #5283ab 0%, #1d309c 100%); 
+    background-image: -o-linear-gradient(top, #5283ab 0%, #1d309c 100%); 
+    background-image: -ms-linear-gradient(top, #5283ab 0% ,#1d309c 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d309c', endColorstr='#1d309c',GradientType=0 ); 
+    background-image: linear-gradient(top, #5283ab 0% ,#1d309c 100%);   
+    -webkit-box-shadow:inset 1,1px 0,1px -8,-8px #ffffff,#ffffff;  -moz-box-shadow:inset 1px 1px -8px #ffffff;  box-shadow:inset 1px 1px -8px #ffffff;  
+     
+    }
+
+    #instrucción{
+        color: black;
+        font-size: 100%;
+        padding: 0 5% 0 5%;
+        /* background-color: white; */
+        text-shadow: white 2px 2px;
+        font-style: italic;
+        font-family: serif;
+    }
+        /* tamaño de imagen de instrucciones principales */
+        img{
+            width: 100%;
+            margin: 0 0 0 -3%;
+        }
+    
+        p{
+            font-style: italic;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }

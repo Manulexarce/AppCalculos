@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones báscucas de la suma</title>
+    <style>
+        .respuesta {
+          color: blue;
+        }
+      </style>
+</head>
+<body>
+    <h1>Cálculo de porcentajes</h1>
+    <form id="formulario">
+        <label for="numero1" id="textNumero">Cuánto es:</label>
+        <br>
+      <input type="number" id="numero1" placeholder="%" required>
+      <br><br>
+      <label for="numero2" id="textNumero">De:</label>
+      <br>
+      <input type="number" id="numero2" placeholder="Segundo número" required>
+      <br><br>
+      <!-- <p id="intrucción">Instrucciones de uso:</p>
+      <img src="assets/instrus.png" alt="imagen-instrucciones">
+      <p id="instrucción">Para agregar datos comience dando click en el botón de "agregar caja de texto" hasta tener los contenedores necesarios para su operación</p> -->
+      <div id="listaUsuario">
+        <!-- Aquí se agregarán las nuevas cajas de texto -->
+      </div> 
+      
+      <br>
+      <button type="button" id="ResultadoBoton">Resultado</button>
+
+    
+      <!--A continuación se puede ver el contenedor para agregar nuevos input y desde el cual podemos llamar a la clase agregarCajaTexto en su ts-->
+    </form>
+
+    
+    <div id="contenido">
+        <p id="resultado"> </p>
+        <p id="ciclofor"></p>
+    </div>
+    <script src="primer-calculo.component.ts"></script>
+</body>
+</html>

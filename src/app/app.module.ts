@@ -9,6 +9,8 @@ import { DatospostComponent } from './datospost/datospost.component';
 import { PrimerCalculoComponent } from './primer-calculo/primer-calculo.component';
 import { SegundoCalculoComponent } from './segundo-calculo/segundo-calculo.component';
 import { MenuindexComponent } from './menuindex/menuindex.component';
+import { TercerCalculoComponent } from './tercer-calculo/tercer-calculo.component';
+import { CuartoCalculoComponent } from './cuarto-calculo/cuarto-calculo.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { MenuindexComponent } from './menuindex/menuindex.component';
     PrimerCalculoComponent,
     SegundoCalculoComponent,
     MenuindexComponent,
+    TercerCalculoComponent,
+    CuartoCalculoComponent,
   ],
   imports: [
     BrowserModule,

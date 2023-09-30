@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
 FormControl
+import { Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +10,6 @@ FormControl
 })
 export class AppComponent {
   title = 'calculadora';
-
+  
   }
 

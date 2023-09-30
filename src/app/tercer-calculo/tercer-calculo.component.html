@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones básicas de División</title>
+    <style>
+        .respuesta {
+          color: rgb(9, 94, 16);
+        }
+      </style>
+</head>
+<body>
+    <h1>Ingrese los números a Dividir</h1>
+    <form id="formulario">
+      <p id="intrucción">Instrucciones de uso:</p>
+      <img src="assets/instrudivi.png" alt="imagen-instrucciones">
+      <p id="instrucción"></p>
+        <label for="numero-Dividendo">Dividendo</label>
+      <input type="number" id="numero-Dividendo" placeholder="Dividendo" required>
+      <br><br>
+      
+      <label for="numero-Divisor">Divisor</label>
+      <input type="number" id="numero-Divisor" placeholder="Divisor" required>
+        <br>
+        <label for="NewDivisor" id="NewNumero">Nuevo Divisor</label>
+      <input type="number" id="NewDivisor" placeholder="Nueva División">
+      <br><br>
+      <button type="button" id="numero-BotonDividir">Dividir</button>
+      <button type="button" id="NewOperacion">Nueva Operación</button>
+      <button type="button" id="Operar">Operar Nuevo</button>
+    </form>
+    
+    <div id="contenido">
+        <p id="resultado"> </p>
+        <p id="resultado2"></p>
+    </div>
+    <script src="tercer-calculo.component.ts"></script>
+</body>
+</html>

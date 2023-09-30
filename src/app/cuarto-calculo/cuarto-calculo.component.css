@@ -1,0 +1,128 @@
+#contenedor1{
+    border: 2px dashed black;
+    padding: 50px;
+}
+h1{
+    font-family: 'Impact', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#numero1, #numero2, #extras{
+    background-color: rgb(223, 223, 223);
+    position: relative;
+    margin-left: 10%;
+    border: 2px solid rgb(182, 40, 253);
+    border-radius: 4px;
+    width: 80%;
+}
+
+.extras{
+    background-color: rgb(223, 223, 223);
+    position: relative;
+    margin:2% 0 0 10%;
+    border: 2px solid red;
+    border-radius: 4px;
+    width: 80%;
+    display: inline-block;
+    width: 35%;
+}
+#textNumero{
+    margin: 0 -8% 0 10%;
+}
+#numero1, #numero2{
+    display: inline-block;
+    width: 35%;
+}
+#formulario{
+    border: black 2px dashed;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #e1b4ff8e;
+    border-radius: 13px;
+}
+
+p{
+    /*Color: rgb(40, 204, 40);*/
+    color: blue;
+    font-weight: bolder;
+    font-size: 150%;
+    text-align: center;
+}
+#contenido{
+    background-color: red;
+    margin-top: 2%;
+    border-radius: 13px;
+}
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+        #instrucción{
+            color: black;
+            font-size: 100%;
+            padding: 0 5% 0 5%;
+            /* background-color: white; */
+            text-shadow: white 2px 2px;
+            font-style: italic;
+            font-family: serif;
+        }
+
+    /* tamaño de imagen de instrucciones principales */
+    img{
+        width: 75%;
+        margin: 0 0 0 10%;
+    }
+
+
+    p{
+        font-style: italic;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #ResultadoBoton {
+        background-color: #f44336;
+        font-size: 20px;
+        border-radius: 8px;
+        margin: 0 0 0 12%;
+    } 
+    #ResultadoBoton:hover {
+        background-color: #a13028;
+        cursor: pointer;
+    }
+    #ResultadoBoton{text-decoration:none; text-align:center; 
+        padding:7px 53px; 
+        border:solid 3px #004F72; 
+        -webkit-border-radius:4px;
+        -moz-border-radius:4px; 
+        border-radius: 4px; 
+        font:18px Arial, Helvetica, sans-serif; 
+        font-weight:bold; 
+        color:#E5FFFF; 
+        background-color:#931ee1; 
+        background-image: -moz-linear-gradient(top, #cf2d2d 0%, #ffffff 100%); 
+        background-image: -webkit-linear-gradient(top, #cf2d2d 0%, #ffffff 100%); 
+        background-image: -o-linear-gradient(top, #cf2d2d 0%, #ffffff 100%); 
+        background-image: -ms-linear-gradient(top, #cf2d2d 0% ,#ffffff 100%); 
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); 
+        background-image: linear-gradient(top, #cf2d2d 0% ,#ffffff 100%);   
+        -webkit-box-shadow:inset 1,1px 0,1px -8,-8px #ffffff,#ffffff;  -moz-box-shadow:inset 1px 0px -8px #ffffff;  box-shadow:inset 1px 0px -8px #ffffff;  
+         
+         }
+         #ResultadoBoton:hover{
+        padding:7px 53px; 
+        border:solid 3px #004F72; 
+        -webkit-border-radius:4px;
+        -moz-border-radius:4px; 
+        border-radius: 4px; 
+        font:17px Arial, Helvetica, sans-serif; 
+        font-weight:bold; 
+        color:#E5FFFF; 
+        background-color:#7518b4; 
+        background-image: -moz-linear-gradient(top, #a62828 0%, #1d309c 100%); 
+        background-image: -webkit-linear-gradient(top, #a62828 0%, #1d309c 100%); 
+        background-image: -o-linear-gradient(top, #a62828 0%, #1d309c 100%); 
+        background-image: -ms-linear-gradient(top, #a62828 0% ,#1d309c 100%); 
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d309c', endColorstr='#1d309c',GradientType=0 ); 
+        background-image: linear-gradient(top, #a62828 0% ,#1d309c 100%);   
+        -webkit-box-shadow:inset 1,1px 0,1px -8,-8px #ffffff,#ffffff;  -moz-box-shadow:inset 1px 1px -8px #ffffff;  box-shadow:inset 1px 1px -8px #ffffff;  
+         }    
